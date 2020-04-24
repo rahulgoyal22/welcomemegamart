@@ -1,18 +1,26 @@
 body, html {
-  height: 100%
+  margin:0px;
+  height: 100vh;
+  width: 100vw; 
+}
+
+body{
+  background-image: url('../images/open.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .bgimg {
   /* Background image */
  
   /* Full-screen */
-  height: 100%;
+  height: 100vh;
+
   /* Center the background image */
   background-position: center;
   /* Scale and zoom in the image */
-  background-size: cover;
-  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
-  position: relative;
+  background-size: contain;
   /* Add a white text color to all elements inside the .bgimg container */
   color: white;
   /* Add a font */
